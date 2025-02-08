@@ -11,21 +11,7 @@
 ✅ **Evaluates translation quality** using BLEU score.  
 ✅ **Deployed as a web app** using Gradio.  
 
-
 ---
-
-## **🛠 Model Training**  
-Run the following command to train the model:  
-```bash
-python src/train.py
-```
-- The training script loads the dataset, preprocesses text, tokenizes it, and trains the Encoder-Decoder model.  
-
-```
-- The UI will open in your browser, allowing you to enter an English sentence and get the translated French output.  
-
----
-
 
 ## **📊 Evaluation Metrics**  
 The translation quality is evaluated using:  
